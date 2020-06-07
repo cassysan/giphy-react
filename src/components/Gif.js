@@ -8,7 +8,7 @@ class Gif extends Component {
   render () {
     return (
       <div>
-        <img src="https://giphy.com/gifs/dojacat-doja-cat-Rh5k1GXp0vp224lWQ9" alt="" className="gif"/>
+        <img src="https://media2.giphy.com/media/H1N2Zryv3gxa6lQG87/giphy.gif?cid=ecf05e47e2bc31e51e72f4979741d48cf729313a677176db&rid=giphy.gif" className="gif"/>
       </div>
     )
   }
