@@ -43,7 +43,13 @@ class App extends Component {
           <div className="selected-gif">
             <Gif id={this.state.selectedGifId} />
           </div>
+          <div className="instructions">
+            <h3>Welcome to Gif Selector. </h3>
+            <p>Type Something in to Select a deired Gif.</p>
+            <p>Click on desired gif to display in Main section.</p>
+          </div>
         </div>
+
         <div className="right-scene">
           <GifList gifs={this.state.gifs} changeGif={this.changeGif.bind(this)}/>
         </div>
@@ -52,6 +58,7 @@ class App extends Component {
   }
 }
 
+
 export default App;
 
-//
+
