@@ -8,5 +8,4 @@ Here are some dependencies you need in order to run the program locally:
 2.) Giphy Api
     You must have this installed to the program to run the api calls.
     In order to make it work locally, you will have to make an account with Giphy Developers to secure your own API string.
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/5CbDf1w" data-context="false" ><a href="//imgur.com/a/5CbDf1w"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/a/5CbDf1w)
