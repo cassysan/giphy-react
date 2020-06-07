@@ -8,4 +8,6 @@ Here are some dependencies you need in order to run the program locally:
 2.) Giphy Api
     You must have this installed to the program to run the api calls.
     In order to make it work locally, you will have to make an account with Giphy Developers to secure your own API string.
+    
+    Here is a screen recording of the app at work: 
 ![](react.gif)
