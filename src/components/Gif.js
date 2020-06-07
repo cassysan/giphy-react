@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 
 class Gif extends Component {
 
-  handleUpdate = (e) => {
-    console.log(e.target.value)
-  }
+
   render () {
+    const src = `https://media1.giphy.com/media/${this.props.id}/giphy.gif?cid=ecf05e47427d454cf3c1c0eefd0588e78a225c96ed99a9a6&rid=giphy.gif`
     return (
       <div>
-        <img src="https://media2.giphy.com/media/H1N2Zryv3gxa6lQG87/giphy.gif?cid=ecf05e47e2bc31e51e72f4979741d48cf729313a677176db&rid=giphy.gif" className="gif"/>
+        <img src={src} className="gif"/>
       </div>
     )
   }
