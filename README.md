@@ -9,5 +9,5 @@ Here are some dependencies you need in order to run the program locally:
     You must have this installed to the program to run the api calls.
     In order to make it work locally, you will have to make an account with Giphy Developers to secure your own API string.
 
-<iframe src="https://giphy.com/embed/QUKkivXKioB0MWlmtY" width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/QUKkivXKioB0MWlmtY">via GIPHY</a></p>
+<img src="https://giphy.com/gifs/QUKkivXKioB0MWlmtY/html5" alt="Output sample" style="max-width:100%;">
 
