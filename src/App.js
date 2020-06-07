@@ -27,6 +27,13 @@ class App extends Component {
     // Res contains gif data!
 });
   }
+
+  changeGif = (id) => {
+    this.setState({
+      selectedGifId: id
+    })
+    }
+
   render () {
 
     return (
@@ -34,11 +41,11 @@ class App extends Component {
         <div className="left-scene">
           <SearchBar searchFunction={this.search} />
           <div className="selected-gif">
-            <Gif id={this.state.selectedGifId}/>
+            <Gif id={this.state.selectedGifId} />
           </div>
         </div>
         <div className="right-scene">
-          <GifList gifs={this.state.gifs}/>
+          <GifList gifs={this.state.gifs} changeGif={this.changeGif.bind(this)}/>
         </div>
       </div>
     )
@@ -46,3 +53,5 @@ class App extends Component {
 }
 
 export default App;
+
+//

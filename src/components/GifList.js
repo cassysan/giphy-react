@@ -3,14 +3,13 @@ import Gif from './Gif';
 
 class GifList extends Component {
 
-  handleUpdate = (e) => {
-    console.log(e.target.value)
-  }
   render () {
+    const changeGif = this.props.changeGif;
     return (
       <div className="gif-list">
-        {this.props.gifs.map(gif => {
-          return <Gif id={gif.id} />
+        {
+          this.props.gifs.map(gif => {
+          return <Gif id={gif.id} key={gif.id} changeGif={changeGif} />
         })}
       </div>
     )
