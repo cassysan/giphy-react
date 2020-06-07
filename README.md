@@ -9,4 +9,4 @@ Here are some dependencies you need in order to run the program locally:
     You must have this installed to the program to run the api calls.
     In order to make it work locally, you will have to make an account with Giphy Developers to secure your own API string.
 
-![](Animated GIF-downsized_large.gif)
+![](https://giphy.com/gifs/QUKkivXKioB0MWlmtY/html5)
