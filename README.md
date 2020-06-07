@@ -9,5 +9,7 @@ Here are some dependencies you need in order to run the program locally:
     You must have this installed to the program to run the api calls.
     In order to make it work locally, you will have to make an account with Giphy Developers to secure your own API string.
     
+    
+    This is the link to the deployed application on heroku: https://secure-basin-31064.herokuapp.com/
     Here is a screen recording of the app at work: 
 ![](react.gif)
